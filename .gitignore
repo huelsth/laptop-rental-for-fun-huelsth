@@ -1,0 +1,64 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# If you are using PostgreSQL
+*.pgsql
+
+# If you are using MySQL
+*.mysql
+
+# If you are using SQLite
+*.sqlite3
+
+# Ignore the local Django settings file
+settings_local.py
+
+# Ignore the environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.pyenv/
+
+# VS Code
+.vscode/
+.idea/
+
+# JetBrains IDEs
+.idea/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pylint
+pylint-report.txt
+pylint-output.txt
